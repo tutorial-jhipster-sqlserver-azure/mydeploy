@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "containerGroupName": {
+      "value": "mycg2"
+    },
+    "containerRegistryUri": {
+      "value": "myexamplecr.azurecr.io"
+    },
+    "containerRegistryUsername": {
+      "value": "myexamplecr"
+    },
+    "containerRegistryPassword": {
+      "value": "VF74Nch8/dXvOo1ELiR8UrW=kur6vRE6"
+    },
+    "applicationDnsName": {
+      "value": "myfunexampleapp"
+    }
+  }
+}
